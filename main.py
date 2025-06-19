@@ -22,6 +22,7 @@ app.include_router(todo.router)
 
 origins = [
     "http://localhost:3000",
+    "https://llm-utilities-fe.vercel.app/",
     "*",
 ]
 
